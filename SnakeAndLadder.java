@@ -7,6 +7,8 @@ public class SnakeAndLadder
 		int start = 0;
 		int player1 = start;
 
-		System.out.println("player 1 current position : " +player1);
+		int DieNo = (int) Math.floor(Math.random() *6+1 );
+
+		System.out.println("Die number : " +DieNo);
 	}
 }
