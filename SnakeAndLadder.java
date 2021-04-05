@@ -1,7 +1,7 @@
 public class SnakeAndLadder
 {
 
-	public static void main(String[] args)
+public static void main(String[] args)
 	{
 
 		int start = 0;
@@ -20,6 +20,9 @@ public class SnakeAndLadder
 
 			System.out.println("Die number : " +DieNo);
 			System.out.println("option : " +option);
+
+			if(player1 < 0 )
+				player1 = 0;
 
 
 			if(option == Noplay)
