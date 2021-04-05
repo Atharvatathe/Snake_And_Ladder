@@ -11,6 +11,7 @@ public class SnakeAndLadder
 		int Noplay = 0;
 		int Ladder = 1;
 		int Snake = 2;
+		int DieCount=0;
 
 		while( won < 100 )
 		{
@@ -45,6 +46,7 @@ public class SnakeAndLadder
 				player1=won;
 
 			won = player1;
+			DieCount = DieCount+1;
 
 
 			System.out.println("Won: " +won);
@@ -52,6 +54,7 @@ public class SnakeAndLadder
 			System.out.println("\n");
 		}
 
+		System.out.println("Dies count: " +DieCount);
 		System.out.println("Player1 Won the game");
 	}
 }
